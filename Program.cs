@@ -6,7 +6,15 @@ namespace _38_21
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!!!!");//вывод текста
+            int i=1; 
+            int N=10; //сколько лет лежит в банке
+            double prc=0.11;
+            double money=1000000;
+            while(i<=N) {
+                money+=money*prc;
+                i++;
+            }
+            Console.WriteLine(money);//вывод результата
         }
     }
 }
