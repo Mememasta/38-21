@@ -6,7 +6,7 @@ namespace _38_21
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!!!!!");//вывод текста
         }
     }
 }
