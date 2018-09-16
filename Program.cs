@@ -10,9 +10,9 @@ namespace _38_21
             int N=10; //сколько лет лежит в банке
             double prc=0.11;
             double money=1000000;
-            while(i<=N) {
+            for (i=1;i<=N;i++) {
                 money+=money*prc;
-                i++;
+                
             }
             Console.WriteLine(money);//вывод результата
         }
